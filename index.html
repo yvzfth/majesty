@@ -42,18 +42,18 @@
           </a>
         </div>
         <input
-          class="h-9 bg-gray-800 border border-gray-500 border-opacity-75 rounded-l-xl px-3 text-white ml-6 focus:outline-none placeholder-white"
+          class="h-9 w-32 md:w-auto bg-gray-800 border border-gray-500 border-opacity-75 rounded-l-xl px-3 text-white ml-2 md:ml-6 focus:outline-none placeholder-white"
           id="search"
           type="text"
           placeholder="Search..."
         />
         <div
-          class="categories h-9 border border-gray-500 border-opacity-75 text-white flex items-center"
+          class="categories h-9 hidden lg:block border border-gray-500 border-opacity-75 text-white flex items-center"
         >
           <select
             name="categories-select"
             aria-placeholder="ad"
-            class="bg-transparent h-full pl-2 mr-2"
+            class="bg-transparent h-full pl-2 mr-2 hidden lg:block"
           >
             <option value="" disabled selected>Category</option>
             <option value="electronic">Electronic</option>
@@ -87,7 +87,7 @@
         </div>
         <!-- Right Icons -->
         <div
-          class="icons hidden text-white md:flex items-center ml-auto mr-8 w-48 h-16 justify-around"
+          class="icons text-white flex items-center ml-auto mr-2 md:mr-8 w-48 h-16 justify-around"
         >
           <svg
             class="h-4 w-4"
@@ -425,7 +425,9 @@
           </div>
           <div class="main-section-deals mt-5">
             <h1 class="text-2xl font-bold text-gray-700 mb-5">Hot Deals 🔥</h1>
-            <div class="main-section-products flex flex-wrap gap-4"></div>
+            <div
+              class="main-section-products flex flex-wrap gap-4 justify-around md:justify-start"
+            ></div>
           </div>
         </div>
       </div>

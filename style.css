@@ -190,9 +190,7 @@ body {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
-.justify-around {
-  justify-content: space-around;
-}
+
 .items-center {
   align-items: center;
 }
